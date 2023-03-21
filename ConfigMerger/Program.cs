@@ -66,7 +66,7 @@ namespace ConfigMerger
 
             if (help || string.IsNullOrEmpty(file1) || string.IsNullOrEmpty(file2))
             {
-                Console.WriteLine("Usage: FileOverlay [options] -o file1 -y file2");
+                Console.WriteLine("Usage: ConfigMerger [options] -o file1 -y file2");
                 Console.WriteLine("Options:");
                 Console.WriteLine("  -o, --original FILE    Specify the original file (required)");
                 Console.WriteLine("  -y, --overlay FILE     Specify the overlay file (required)");
